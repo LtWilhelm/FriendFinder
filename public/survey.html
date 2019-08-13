@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <title>Survey</title>
+</head>
+
+<body class="bg-light">
+    <div class="container bg-success">
+        <h2>For each question, rate how much you agree with the statement from 1 to 5, 1 meaning that you entirely disagree, and 5 meaning you wholly agree</h2>
+        <form class="form bg-dark p-2" action="/api/friends" method="post" id="form">
+            <div class="bg-light p-3">
+                <p>Question goes here</p>
+                <label><input type="radio" class="radio p-3" name="question1" id="q1" value="1"> <br> 1</label>
+                <label><input type="radio" class="radio p-3" name="question1" id="q1" value="2"> <br> 2</label>
+                <label><input type="radio" class="radio p-3" name="question1" id="q1" value="3"> <br> 3</label>
+                <label><input type="radio" class="radio p-3" name="question1" id="q1" value="4"> <br> 4</label>
+                <label><input type="radio" class="radio p-3" name="question1" id="q1" value="5"> <br> 5</label>
+            </div>
+            <div class="bg-white p-3">
+                <p>Question goes here</p>
+                <label><input type="radio" class="radio p-3" name="question2" id="q1" value="1"> <br> 1</label>
+                <label><input type="radio" class="radio p-3" name="question2" id="q1" value="2"> <br> 2</label>
+                <label><input type="radio" class="radio p-3" name="question2" id="q1" value="3"> <br> 3</label>
+                <label><input type="radio" class="radio p-3" name="question2" id="q1" value="4"> <br> 4</label>
+                <label><input type="radio" class="radio p-3" name="question2" id="q1" value="5"> <br> 5</label>
+            </div>
+            <div class="bg-light p-3">
+                <p>Question goes here</p>
+                <label><input type="radio" class="radio p-3" name="question3" id="q1" value="1"> <br> 1</label>
+                <label><input type="radio" class="radio p-3" name="question3" id="q1" value="2"> <br> 2</label>
+                <label><input type="radio" class="radio p-3" name="question3" id="q1" value="3"> <br> 3</label>
+                <label><input type="radio" class="radio p-3" name="question3" id="q1" value="4"> <br> 4</label>
+                <label><input type="radio" class="radio p-3" name="question3" id="q1" value="5"> <br> 5</label>
+            </div>
+            <div class="bg-white p-3">
+                <p>Question goes here</p>
+                <label><input type="radio" class="radio p-3" name="question4" id="q1" value="1"> <br> 1</label>
+                <label><input type="radio" class="radio p-3" name="question4" id="q1" value="2"> <br> 2</label>
+                <label><input type="radio" class="radio p-3" name="question4" id="q1" value="3"> <br> 3</label>
+                <label><input type="radio" class="radio p-3" name="question4" id="q1" value="4"> <br> 4</label>
+                <label><input type="radio" class="radio p-3" name="question4" id="q1" value="5"> <br> 5</label>
+            </div>
+            <div class="bg-light p-3">
+                <p>Question goes here</p>
+                <label><input type="radio" class="radio p-3" name="question5" id="q1" value="1"> <br> 1</label>
+                <label><input type="radio" class="radio p-3" name="question5" id="q1" value="2"> <br> 2</label>
+                <label><input type="radio" class="radio p-3" name="question5" id="q1" value="3"> <br> 3</label>
+                <label><input type="radio" class="radio p-3" name="question5" id="q1" value="4"> <br> 4</label>
+                <label><input type="radio" class="radio p-3" name="question5" id="q1" value="5"> <br> 5</label>
+            </div>
+            <div class="bg-white p-3">
+                <p>Question goes here</p>
+                <label><input type="radio" class="radio p-3" name="question6" id="q1" value="1"> <br> 1</label>
+                <label><input type="radio" class="radio p-3" name="question6" id="q1" value="2"> <br> 2</label>
+                <label><input type="radio" class="radio p-3" name="question6" id="q1" value="3"> <br> 3</label>
+                <label><input type="radio" class="radio p-3" name="question6" id="q1" value="4"> <br> 4</label>
+                <label><input type="radio" class="radio p-3" name="question6" id="q1" value="5"> <br> 5</label>
+            </div>
+            <div class="bg-light p-3">
+                <p>Question goes here</p>
+                <label><input type="radio" class="radio p-3" name="question7" id="q1" value="1"> <br> 1</label>
+                <label><input type="radio" class="radio p-3" name="question7" id="q1" value="2"> <br> 2</label>
+                <label><input type="radio" class="radio p-3" name="question7" id="q1" value="3"> <br> 3</label>
+                <label><input type="radio" class="radio p-3" name="question7" id="q1" value="4"> <br> 4</label>
+                <label><input type="radio" class="radio p-3" name="question7" id="q1" value="5"> <br> 5</label>
+            </div>
+            <div class="bg-white p-3">
+                <p>Question goes here</p>
+                <label><input type="radio" class="radio p-3" name="question8" id="q1" value="1"> <br> 1</label>
+                <label><input type="radio" class="radio p-3" name="question8" id="q1" value="2"> <br> 2</label>
+                <label><input type="radio" class="radio p-3" name="question8" id="q1" value="3"> <br> 3</label>
+                <label><input type="radio" class="radio p-3" name="question8" id="q1" value="4"> <br> 4</label>
+                <label><input type="radio" class="radio p-3" name="question8" id="q1" value="5"> <br> 5</label>
+            </div>
+            <div class="bg-light p-3">
+                <p>Question goes here</p>
+                <label><input type="radio" class="radio p-3" name="question9" id="q1" value="1"> <br> 1</label>
+                <label><input type="radio" class="radio p-3" name="question9" id="q1" value="2"> <br> 2</label>
+                <label><input type="radio" class="radio p-3" name="question9" id="q1" value="3"> <br> 3</label>
+                <label><input type="radio" class="radio p-3" name="question9" id="q1" value="4"> <br> 4</label>
+                <label><input type="radio" class="radio p-3" name="question9" id="q1" value="5"> <br> 5</label>
+            </div>
+            <div class="bg-white p-3">
+                <p>Question goes here</p>
+                <label><input type="radio" class="radio p-3" name="question10" id="q1" value="1"> <br> 1</label>
+                <label><input type="radio" class="radio p-3" name="question10" id="q1" value="2"> <br> 2</label>
+                <label><input type="radio" class="radio p-3" name="question10" id="q1" value="3"> <br> 3</label>
+                <label><input type="radio" class="radio p-3" name="question10" id="q1" value="4"> <br> 4</label>
+                <label><input type="radio" class="radio p-3" name="question10" id="q1" value="5"> <br> 5</label>
+            </div>
+            <button id="submit">Submit</button>
+
+        </form>
+    </div>
+    <div id="modal"
+        style="width: 100%; height: 100%; background: rgba(0, 0, 0, .5); position: absolute; top: 0; display:none">
+        <div class="p-2" style="position:absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)">
+            <div style="background-color:cadetblue; border-color:darkblue;">
+                <img class="card-img-top"
+                    src="https://i0.wp.com/digital-photography-school.com/wp-content/uploads/flickr/8260117875_5ab9373bce_o.jpg?resize=600%2C401&ssl=1"
+                    alt="placeholder" id="pic" style="max-width: 400px">
+                <div class="card-body">
+                    <h4 class="card-title " id="name">Title</h4>
+                    <p class="card-text">Here is your best match!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $('#submit').on('click', () => {
+            event.preventDefault()
+
+            let sendData = {};
+            let radios = $('.radio')
+
+            for (const key in radios) {
+                if (radios.hasOwnProperty(key)) {
+                    const element = radios[key];
+                    if (element.checked) {
+                        sendData[element.name] = element.value;
+                    }
+                }
+            };
+            console.log(sendData)
+            $.post('/api/friends', sendData).then((response) => {
+                console.log(response);
+
+                $('#name').html(response.name);
+                $('#pic').attr('src', response.photo);
+                $('#modal').show('fast');
+            });
+        });
+    </script>
+</body>
+
+</html>
