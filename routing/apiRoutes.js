@@ -1,7 +1,7 @@
 const friends = require('../data/friends');
-let userResults = [];
 module.exports = function(app) {
     app.post('/api/friends', (req, res) => {
+        let userResults = [];
         let bestMatch;
 
         for(prop in req.body) {
